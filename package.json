@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "ai-sync": "node .ai/scripts/sync.js",
+    "ai-watch": "node .ai/scripts/sync.js --watch",
+    "ai-init": "node .ai/scripts/init-project.js"
+  },
+  "postinstall": "node .ai/scripts/sync.js"
+}
